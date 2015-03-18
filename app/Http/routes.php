@@ -17,6 +17,10 @@ Route::resource('poems', 'PoemController');
 
 Route::resource('stories', 'StoryController');
 
+Route::post('/poem/comment', 'CommentPoemController@store');
+
+Route::post('/story/comment', 'CommentStoryController@store');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

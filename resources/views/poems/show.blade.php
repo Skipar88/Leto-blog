@@ -33,7 +33,10 @@
 
                 </div>
                 <div class="panel-footer">
-                    {{ \Carbon\Carbon::createFromTimeStamp(strtotime($poem->created_at))->diffForHumans()  }}
+                    @include('shared.forms.add-comment', [
+                        'post_id' => $poem->id,
+                        'post_type' => 'poem'
+                    ])
                 </div>
 			</div>
 		</div>
