@@ -8,7 +8,9 @@
 				<div class="panel-heading">Home</div>
 
 				<div class="panel-body">
-					Добре дошли.
+					{{ $story->story_title }}
+					<br>
+					{{ $story->story_content }}
 				</div>
 			</div>
 		</div>

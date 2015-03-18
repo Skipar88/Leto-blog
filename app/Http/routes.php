@@ -13,6 +13,9 @@
 
 Route::get('/', 'HomeController@index');
 
+Route::resource('poems', 'PoemController');
+
+Route::resource('stories', 'StoryController');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

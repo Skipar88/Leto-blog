@@ -64,7 +64,22 @@ return array(
 	 */
 	'permission'=> function()
 	{
-		return Auth::check();
+        if(Auth::user())
+        {
+            if(Auth::user()->role != 'administrator')
+            {
+                return response('Unauthorized.', 401);
+            }
+            else
+            {
+                return true;
+            }
+        }
+        else
+        {
+            return response('Unauthorized.', 401);
+        }
+
 	},
 
 	/**

@@ -8,7 +8,9 @@
 				<div class="panel-heading">Home</div>
 
 				<div class="panel-body">
-					Добре дошли.
+					@foreach($stories as $story)
+                        <a href="{{ url('/stories/' . $story->id) }}">{{ $story->story_title  }}</a> <br>
+                    @endforeach
 				</div>
 			</div>
 		</div>
