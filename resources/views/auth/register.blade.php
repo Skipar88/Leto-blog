@@ -18,48 +18,106 @@
 						</div>
 					@endif
 
-					<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/register') }}">
-						<input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    <script type="text/javascript">
+                      var onloadCallback = function() {
+                        alert("grecaptcha is ready!");
+                      };
+                    </script>
+                    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Name</label>
-							<div class="col-md-6">
-								<input type="text" class="form-control" name="name" value="{{ old('name') }}">
-							</div>
-						</div>
+                    {!! Form::open([
+                    	'method' => 'POST',
+                    	'class' => 'form-horizontal',
+                    	'role'  => 'form'
+                    	])
+                    !!}
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">E-Mail Address</label>
-							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
-							</div>
-						</div>
+                    	<div class="form-group">
+                    		{!! Form::label('first_name', 'Първото име', [
+                    			'class' => 'col-md-4 control-label'
+                    			])
+                    		!!}
+                    		<div class="col-md-6">
+                    			{!! Form::text('first_name', old('first_name'), [
+                    				'class' => 'form-control'
+                    				])
+                    			!!}
+                    		</div>
+                    	</div>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Password</label>
-							<div class="col-md-6">
-								<input type="password" class="form-control" name="password">
-							</div>
-						</div>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Confirm Password</label>
-							<div class="col-md-6">
-								<input type="password" class="form-control" name="password_confirmation">
-							</div>
-						</div>
+                    	<div class="form-group">
+                    		{!! Form::label('family_name', 'Фамилия', [
+                    			'class' => 'col-md-4 control-label'
+                    			])
+                    		!!}
+                    		<div class="col-md-6">
+                    			{!! Form::text('family_name', old('family_name'), [
+                    				'class' => 'form-control'
+                    				])
+                    			!!}
+                    		</div>
+                    	</div>
 
-						<div class="form-group">
-							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">
-									Register
-								</button>
-							</div>
-						</div>
-					</form>
+                    	<div class="form-group">
+                    		{!! Form::label('email', 'Имейл адрес', [
+                    			'class' => 'col-md-4 control-label'
+                    			])
+                    		!!}
+                    		<div class="col-md-6">
+                    			{!! Form::text('email', old('email'), [
+                    				'class' => 'form-control'
+                    				])
+                    			!!}
+                    		</div>
+                    	</div>
+
+                    	<div class="form-group">
+                    		{!! Form::label('password', 'Парола', [
+                    			'class' => 'col-md-4 control-label'
+                    			])
+                    		!!}
+                    		<div class="col-md-6">
+                    			{!! Form::password('password', [
+                    				'class' => 'form-control'
+                    				])
+                    			!!}
+                    		</div>
+                    	</div>
+
+                    	<div class="form-group">
+                    		{!! Form::label('password_confirmation', 'Потвърждение на паролата', [
+                    			'class' => 'col-md-4 control-label'
+                    			])
+                    		!!}
+                    		<div class="col-md-6">
+                    			{!! Form::password('password_confirmation', [
+                    				'class' => 'form-control'
+                    				])
+                    			!!}
+                    		</div>
+                    	</div>
+                    	<div class="form-group">
+                    		<div class="col-md-6 col-md-offset-4">
+                    			{!! Recaptcha::render() !!}
+                    		</div>
+                    	</div>
+                    	<div class="form-group">
+                    		<div class="col-md-6 col-md-offset-4">
+                    			{!! Form::submit('Регистрация', [
+                    				'class' => 'btn btn-primary'
+                    				])
+                    			!!}
+                    		</div>
+                    	</div>
+                    </form>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+@endsection
+
+@section('head-content')
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 @endsection
