@@ -2,157 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7adc81a5-217f-446b-8b54-02f8d0ebb5ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/bg/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/bg/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/bg/validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_03_18_184006_poems.php" afterPath="$PROJECT_DIR$/database/migrations/2015_03_18_184006_poems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_03_18_184027_stories.php" afterPath="$PROJECT_DIR$/database/migrations/2015_03_18_184027_stories.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/input-error.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/shared/forms/register-form.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/administrator/settings/what.php" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\blog-system\.env.example" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_03_18_211128_create_comment_stories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_03_18_211128_create_comment_stories_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/CommentPoem.php" afterPath="$PROJECT_DIR$/app/CommentPoem.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentPoemController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentPoemController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/CommentStory.php" afterPath="$PROJECT_DIR$/app/CommentStory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentStoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentStoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/KnockoutNotification.knockout.min.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/KnockoutNotification.knockout.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Poem.php" afterPath="$PROJECT_DIR$/app/Poem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PoemController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PoemController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Story.php" afterPath="$PROJECT_DIR$/app/Story.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/devtools/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/devtools/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/uicolor/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/uicolor/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/accounting.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/accounting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shared/forms/add-comment.blade.php" afterPath="$PROJECT_DIR$/resources/views/shared/forms/add-comment.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/admin.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/administrator.php" afterPath="$PROJECT_DIR$/config/administrator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/ajax.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/ajax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/api.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/api.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/appendto.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/appendto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/autogrow/autogrow.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/autogrow/autogrow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/bbcode/bbcode.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/bbcode/bbcode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/changelog.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/common.less" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/contents.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/contents.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/cs.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/custom-bindings.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/custom-bindings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/datafiltering.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/datafiltering.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/de.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/devtools/devtools.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/devtools/devtools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/dialog/dialog.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/dialog/dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_ie.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_ie7.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_ie8.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_iequirks.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_opera.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/dialog_opera.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_opera.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/dialog_opera.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/divarea/divarea.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/divarea/divarea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/divreplace.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/divreplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/docprops/docprops.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/docprops/docprops.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_ie.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_ie7.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_ie8.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_iequirks.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/editor_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/el.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/enterkey/enterkey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/es.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/et.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/fi.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/fr-ca.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/fr.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/hr.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/hu.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/image2/image2.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/image2/image2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/poems/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/poems/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/stories/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/stories/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/inlineall.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/inlineall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/inlinebycode.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/inlinebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/inlinetextarea.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/inlinetextarea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/it.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/jquery-1.8.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/ui/jquery-ui-1.9.1.custom.min.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/ui/jquery-ui-1.9.1.custom.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/jquery-ui-timepicker-addon.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/jquery-ui-timepicker-addon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/localization/jquery-ui-timepicker-af.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/localization/jquery-ui-timepicker-af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/jquery.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/jquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/jquery.ui.plupload/css/jquery.ui.plupload.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/jquery.ui.plupload/css/jquery.ui.plupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/jquery.ui.slider.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/jquery/jquery.ui.slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/ui/jquery.ui.timepicker.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/ui/jquery.ui.timepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/knockout-2.2.0.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/knockout-2.2.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/knockout.mapping.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/knockout.mapping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/knockout.updateData.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/knockout/knockout.updateData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/ko.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/shared/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/shared/layout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/license.txt" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/lv.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/magicline/magicline.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/magicline/magicline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/main.less" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/markdown.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/markdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/mathjax/mathjax.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/mathjax/mathjax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/nl.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/placeholder/placeholder.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/placeholder/placeholder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/administrator/poems.php" afterPath="$PROJECT_DIR$/config/administrator/poems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/assets/posteddata.php" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/assets/posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/preview/preview.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/preview/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/readme.md" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/kama/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/skins/moono/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/readonly.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/readonly.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/replacebyclass.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/replacebyclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/replacebycode.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/replacebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/ro.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/ru.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/sample.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/sample.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/assets/sample.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/assets/sample.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/stylesheetparser/assets/sample.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/stylesheetparser/assets/sample.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/sample.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/sample_posteddata.php" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/sample_posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/sharedspace/sharedspace.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/sharedspace/sharedspace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/bg/pagination.php" afterPath="$PROJECT_DIR$/resources/lang/bg/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/poems/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/poems/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/stories/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/stories/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/sourcedialog/sourcedialog.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/sourcedialog/sourcedialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/sr.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/administrator/stories.php" afterPath="$PROJECT_DIR$/config/administrator/stories.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/styles.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/stylesheetparser/stylesheetparser.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/stylesheetparser/stylesheetparser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/sv.js" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/plupload/js/i18n/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/tabindex.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/tabindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/tableresize/tableresize.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/tableresize/tableresize.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/templates/dialogs/templates.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/tmp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/toolbar/toolbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/uicolor.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/uicolor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/uicolor/uicolor.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/plugins/uicolor/uicolor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/uilanguages.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/uilanguages.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/xhtmlstyle.html" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/samples/xhtmlstyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/uicolor/yui/assets/yui.css" afterPath="$PROJECT_DIR$/public/packages/frozennode/administrator/js/ckeditor/plugins/uicolor/yui/assets/yui.css" />
     </list>
     <ignored path="blogSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015_03_18_211123_create_comment_poems_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php">
+      <file leaf-file-name="PoemController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PoemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5846314" vertical-offset="12" max-vertical-offset="975">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6105919" vertical-offset="212" max-vertical-offset="1175">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,6 +69,8 @@
       <command text="php artisan migrate:reset" />
       <command text="php artisan migrate" />
       <command text="php artisan db:seed" />
+      <command text="php artisan migrate" />
+      <command text="php artisan db:seed" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -212,7 +83,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/config/recaptcha.php" />
         <option value="$PROJECT_DIR$/app/Services/Registrar.php" />
@@ -226,17 +96,11 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PoemsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/reset.blade.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_03_18_210929_create_comments_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_03_18_211128_create_comment_stories_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/CreateComment.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/stories/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/poems/index.blade.php" />
         <option value="$PROJECT_DIR$/config/administrator/poems.php" />
@@ -245,16 +109,26 @@
         <option value="$PROJECT_DIR$/resources/views/shared/layout.blade.php" />
         <option value="$PROJECT_DIR$/config/administrator.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/forms/add-comment.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentPoemController.php" />
-        <option value="$PROJECT_DIR$/resources/views/poems/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PoemController.php" />
         <option value="$PROJECT_DIR$/app/Poem.php" />
         <option value="$PROJECT_DIR$/app/Story.php" />
-        <option value="$PROJECT_DIR$/app/CommentPoem.php" />
-        <option value="$PROJECT_DIR$/app/CommentStory.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StoryController.php" />
-        <option value="$PROJECT_DIR$/resources/views/stories/show.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_03_18_211128_create_comment_stories_table.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/lang/bg/pagination.php" />
+        <option value="$PROJECT_DIR$/resources/views/errors/input-error.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/shared/forms/register-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentPoemController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentStoryController.php" />
+        <option value="$PROJECT_DIR$/app/CommentStory.php" />
+        <option value="$PROJECT_DIR$/app/CommentPoem.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/stories/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/poems/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PoemController.php" />
       </list>
     </option>
   </component>
@@ -314,7 +188,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blogSystem" />
+              <option name="myItemId" value="blog-system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blogSystem" />
+              <option name="myItemId" value="blog-system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -338,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blogSystem" />
+              <option name="myItemId" value="blog-system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -347,6 +221,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,7 +248,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/stories/show.blade.php&#10;POemCon&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Http/Controllers/PoemController.php&#10;CommentPoem&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/CommentPoem.php&#10;Comme&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Http/Controllers/CommentPoemController.php&#10;CommentP&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/shared/forms/add-comment.blade.php&#10;routes&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Http/routes.php&#10;app.ph&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/config/app.php&#10;app&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/app.blade.php&#10;ResetsPasswords.php&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php&#10;AuthenticatesAndRegistersUsers.php&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;Regi&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Services/Registrar.php&#10;Re&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/vendor/greggilbert/recaptcha/src/Recaptcha.php&#10;regi&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/auth/register.blade.php&#10;User&#9;null&#9;null&#10;Recap&#9;null&#9;null&#10;regis&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/auth/register.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/Http/Controllers/PoemController.php&#10;User&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/User.php&#10;PoemCon&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/Http/Controllers/PoemController.php&#10;Comment&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/CommentPoem.php&#10;show&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/resources/views/stories/show.blade.php&#10;CommentSto&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/CommentStory.php&#10;CommentPO&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/CommentPoem.php&#10;CommenS&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/Http/Controllers/CommentStoryController.php&#10;CommentPo&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/Http/Controllers/CommentPoemController.php&#10;show.&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/resources/views/stories/show.blade.php&#10;CommentPoem&#9;FILE&#9;file://D:/xampp/htdocs/blog-system/app/Http/Controllers/CommentPoemController.php&#10;POemCon&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Http/Controllers/PoemController.php&#10;Comme&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Http/Controllers/CommentPoemController.php&#10;CommentP&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/shared/forms/add-comment.blade.php&#10;routes&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Http/routes.php&#10;app.ph&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/config/app.php&#10;app&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/app.blade.php&#10;ResetsPasswords.php&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php&#10;AuthenticatesAndRegistersUsers.php&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;Regi&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/app/Services/Registrar.php&#10;Re&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/vendor/greggilbert/recaptcha/src/Recaptcha.php&#10;regi&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/auth/register.blade.php&#10;Recap&#9;null&#9;null&#10;regis&#9;FILE&#9;file://D:/xampp/htdocs/blogSystem/resources/views/auth/register.blade.php" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -386,15 +274,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -414,29 +302,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20595238" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20595238" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41908714" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -457,39 +345,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10384216" vertical-offset="0" max-vertical-offset="963">
-          <caret line="6" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7219251" vertical-offset="1540" max-vertical-offset="6975">
-          <caret line="129" column="35" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37694705" vertical-offset="62" max-vertical-offset="1025">
-          <caret line="20" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33262032" vertical-offset="1389" max-vertical-offset="3550">
-          <caret line="70" column="29" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.337487" vertical-offset="0" max-vertical-offset="1075">
@@ -574,42 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6490135" vertical-offset="0" max-vertical-offset="963">
-          <caret line="27" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5192108" vertical-offset="0" max-vertical-offset="963">
-          <caret line="24" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684" vertical-offset="375" max-vertical-offset="3200">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="963">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="963">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/frozennode/administrator/src/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8947368" vertical-offset="4050" max-vertical-offset="15500">
@@ -621,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5970924" vertical-offset="0" max-vertical-offset="963">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42105263" vertical-offset="0" max-vertical-offset="1025">
           <caret line="16" column="48" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,15 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="1025">
           <caret line="20" column="125" selection-start-line="20" selection-start-column="125" selection-end-line="20" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/bg/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2825">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.7902389" vertical-offset="4287" max-vertical-offset="5250">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3509865" vertical-offset="1137" max-vertical-offset="2100">
           <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,39 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9503876" vertical-offset="337" max-vertical-offset="2050">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_184006_poems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6868217" vertical-offset="107" max-vertical-offset="975">
-          <caret line="23" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_184027_stories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5984496" vertical-offset="189" max-vertical-offset="975">
-          <caret line="24" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_211128_create_comment_stories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9736434" vertical-offset="197" max-vertical-offset="975">
-          <caret line="34" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shared/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5933544" vertical-offset="900" max-vertical-offset="1900">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="52" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67246836" vertical-offset="2625" max-vertical-offset="3875">
           <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,23 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3675">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shared/forms/add-comment.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078947365" vertical-offset="0" max-vertical-offset="950">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.337487" vertical-offset="0" max-vertical-offset="963">
-          <caret line="22" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="963">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,22 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3329718" vertical-offset="5043" max-vertical-offset="83525">
           <caret line="237" column="36" selection-start-line="214" selection-start-column="36" selection-end-line="214" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/CommentPoem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3894081" vertical-offset="0" max-vertical-offset="963">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/CommentStory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5192108" vertical-offset="0" max-vertical-offset="963">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -793,64 +536,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/poems/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4807892" vertical-offset="262" max-vertical-offset="1225">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <marker date="1426777184147" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426777184147" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PoemController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75285566" vertical-offset="0" max-vertical-offset="1100">
-          <caret line="34" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5846314" vertical-offset="37" max-vertical-offset="1125">
           <caret line="28" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40290758" vertical-offset="12" max-vertical-offset="1000">
+          <caret line="17" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/stories/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_211128_create_comment_stories_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57894737" vertical-offset="225" max-vertical-offset="1325">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <marker date="1426778340717" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426778340717" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.45482865" vertical-offset="12" max-vertical-offset="1000">
+          <caret line="19" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentPoemController.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3894081" vertical-offset="0" max-vertical-offset="963">
-          <caret line="21" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.31305903" vertical-offset="0" max-vertical-offset="600">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_184006_poems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7924866" vertical-offset="107" max-vertical-offset="975">
+          <caret line="23" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_184027_stories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6905188" vertical-offset="189" max-vertical-offset="975">
+          <caret line="24" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19499105" vertical-offset="216" max-vertical-offset="775">
+          <caret line="17" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/administrator/settings/what.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15026833" vertical-offset="41" max-vertical-offset="625">
+          <caret line="14" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/bg/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9516995" vertical-offset="1650" max-vertical-offset="2825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/bg/passwords.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25223613" vertical-offset="141" max-vertical-offset="700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/bg/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7316637" vertical-offset="66" max-vertical-offset="625">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1900">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="52" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/forms/add-comment.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13736264" vertical-offset="0" max-vertical-offset="800">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/input-error.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02596054" vertical-offset="0" max-vertical-offset="963">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/forms/register-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5451713" vertical-offset="0" max-vertical-offset="963">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentStoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.337487" vertical-offset="0" max-vertical-offset="963">
-          <caret line="20" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.3894081" vertical-offset="0" max-vertical-offset="963">
+          <caret line="23" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_18_211123_create_comment_poems_table.php">
+    <entry file="file://$PROJECT_DIR$/app/CommentStory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5846314" vertical-offset="12" max-vertical-offset="975">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.62305295" vertical-offset="0" max-vertical-offset="963">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentPoemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5192108" vertical-offset="0" max-vertical-offset="963">
+          <caret line="27" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CommentPoem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2596054" vertical-offset="0" max-vertical-offset="963">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5711319" vertical-offset="0" max-vertical-offset="963">
+          <caret line="26" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/poems/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63655245" vertical-offset="187" max-vertical-offset="1350">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="66" />
+          <folding>
+            <marker date="1426794780877" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426794780877" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/stories/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5586708" vertical-offset="212" max-vertical-offset="1350">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PoemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6105919" vertical-offset="212" max-vertical-offset="1175">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

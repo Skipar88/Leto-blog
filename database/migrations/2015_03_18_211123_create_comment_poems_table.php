@@ -16,6 +16,7 @@ class CreateCommentPoemsTable extends Migration {
 		{
 			$table->increments('id');
             $table->integer('poem_id');
+            $table->integer('user_id');
             $table->text('comment_content');
 			$table->timestamps();
 		});

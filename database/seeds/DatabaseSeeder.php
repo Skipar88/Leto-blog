@@ -1,5 +1,7 @@
 <?php
 
+use App\Poem;
+use App\Story;
 use App\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

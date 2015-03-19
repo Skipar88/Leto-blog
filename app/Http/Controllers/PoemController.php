@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 
 use App\Poem;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PoemController extends Controller {
 
@@ -32,7 +33,10 @@ class PoemController extends Controller {
     {
         $poem = Poem::find($id);
 
-        $comments = Poem::find($poem->id)->ownComments;
+        $comments = DB::table('comment_poems')
+            ->join('users', 'comment_poems.user_id', '=', 'users.id')
+            ->get(['comment_content', 'first_name', 'family_name']);;
+
 
         return view('poems.show', [
             'poem' => $poem,

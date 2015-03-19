@@ -10,6 +10,7 @@ class CommentPoem extends Model {
      */
     protected $fillable = [
         'poem_id',
+        'user_id',
         'comment_content'
     ];
 
@@ -19,5 +20,9 @@ class CommentPoem extends Model {
      */
     public function poemComments(){
         return $this->belongsTo('App\Poem');
+    }
+
+    public function userComment(){
+        return $this->belongsTo('App\User');
     }
 }

@@ -10,6 +10,7 @@ class CommentStory extends Model {
      */
     protected $fillable = [
         'story_id',
+        'user_id',
         'comment_content'
     ];
 

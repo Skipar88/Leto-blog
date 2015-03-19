@@ -16,6 +16,7 @@ class CreateCommentStoriesTable extends Migration {
 		{
             $table->increments('id');
             $table->integer('story_id');
+            $table->integer('user_id');
             $table->text('comment_content');
             $table->timestamps();
 		});

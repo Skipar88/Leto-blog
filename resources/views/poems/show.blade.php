@@ -21,15 +21,20 @@
 
 			</div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-                    <h4>Коментари (2)</h4>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>Коментари ({!! $comments ? count($comments) : '0' !!})</h4>
                 </div>
 
                 <div class="panel-body">
-                    @foreach($comments as $comment)
-                        {{ $comment->comment_content }}
-                    @endforeach
+                    @if($comments)
+                        @foreach($comments as $comment)
+                            {{ $comment->first_name }} {{ $comment->family_name }}
+                            <p>{{ $comment->comment_content }}</p>
+                        @endforeach
+                    @else
+                        За момента няма коментари
+                    @endif
                 </div>
                 <div class="panel-footer">
                     @include('shared.forms.add-comment', [
@@ -37,7 +42,7 @@
                         'post_type' => 'poem'
                     ])
                 </div>
-			</div>
+            </div>
 		</div>
 	</div>
 </div>
