@@ -16,7 +16,7 @@ class Stories extends Migration {
         {
             $table->increments('id');
             $table->string('story_title');
-            $table->string('story_content');
+            $table->text('story_content');
             $table->timestamps();
         });
 	}

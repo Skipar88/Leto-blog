@@ -6,12 +6,12 @@
 		<div class="col-md-10 col-md-offset-1">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-				    <h2>{{ $poem->poem_title }}</h2>
+				    <h2>{!! $poem->poem_title !!}</h2>
 				</div>
 
 				<div class="panel-body">
 					<p>
-					    {{ $poem->poem_content }}
+					    {!! $poem->poem_content !!}
        				</p>
 
 				</div>
@@ -27,10 +27,9 @@
                 </div>
 
                 <div class="panel-body">
-                    <p>
-                        {{ $poem->poem_content }}
-                    </p>
-
+                    @foreach($comments as $comment)
+                        {{ $comment->comment_content }}
+                    @endforeach
                 </div>
                 <div class="panel-footer">
                     @include('shared.forms.add-comment', [

@@ -16,7 +16,7 @@ class Poems extends Migration {
         {
             $table->increments('id');
             $table->string('poem_title');
-            $table->string('poem_content');
+            $table->text('poem_content');
             $table->timestamps();
         });
 	}

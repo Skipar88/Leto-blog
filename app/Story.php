@@ -13,4 +13,11 @@ class Story extends Model {
         'story_content'
     ];
 
+    /**
+     * Return comments for story
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function ownComments(){
+        return $this->hasMany('App\CommentStory');
+    }
 }

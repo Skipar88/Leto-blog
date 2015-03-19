@@ -30,10 +30,13 @@ return [
      */
     'columns' => [
         'poem_title' => [
-            'poem_title' => 'poem_title'
+            'title' => 'Заглавие'
         ],
         'poem_content' => [
-            'poem_content' => 'poem_content'
+            'title' => 'Съдържание'
+        ],
+        'created_at' => [
+            'title' => 'Дата на създаване'
         ]
     ],
 
@@ -44,13 +47,32 @@ return [
      */
     'edit_fields' => [
         'poem_title' => [
-            'poem_title' => 'poem_title',
+            'title' => 'Заглавие',
             'type' => 'text'
         ],
         'poem_content' => [
-            'poem_content' => 'poem_content',
-            'type' => 'textarea',
+            'title' => 'Съдържание',
+            'type' => 'wysiwyg',
             'height' => 500
         ]
     ],
+
+    /**
+     * The sort options for a model
+     *
+     * @type array
+     */
+    'sort' => array(
+        'field' => 'created_at',
+        'direction' => 'desc',
+    ),
+
+    /**
+     * The width of the model's edit form
+     *
+     * @type int
+     */
+    'form_width' => 1000,
+
+
 ];

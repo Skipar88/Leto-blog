@@ -30,10 +30,13 @@ return [
      */
     'columns' => [
         'story_title' => [
-            'story_title' => 'story_title'
+            'title' => 'Заглавие'
         ],
         'story_content' => [
-            'story_content' => 'story_content'
+            'title' => 'Съдържание'
+        ],
+        'created_at' => [
+            'title' => 'Дата на създаване'
         ]
     ],
 
@@ -44,13 +47,30 @@ return [
      */
     'edit_fields' => [
         'story_title' => [
-            'story_title' => 'story_title',
+            'title' => 'Заглавие',
             'type' => 'text'
         ],
         'story_content' => [
-            'story_content' => 'story_content',
-            'type' => 'textarea',
+            'title' => 'Съдържание',
+            'type' => 'wysiwyg',
             'height' => 500
         ]
     ],
+
+    /**
+     * The sort options for a model
+     *
+     * @type array
+     */
+    'sort' => array(
+        'field' => 'created_at',
+        'direction' => 'desc',
+    ),
+
+    /**
+     * The width of the model's edit form
+     *
+     * @type int
+     */
+    'form_width' => 1000,
 ];

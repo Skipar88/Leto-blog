@@ -1,7 +1,7 @@
 @if(Auth::user())
 
     {!! Form::open([
-        'url' => $post_type . '/comment',
+        'url' => '/' . $post_type . '/comment',
         'class' => 'row form-inline'
     ]) !!}
         <div class="form-group col-md-10">

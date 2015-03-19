@@ -13,4 +13,11 @@ class Poem extends Model {
         'poem_content'
     ];
 
+    /**
+     * Return comments for poem
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function ownComments(){
+        return $this->hasMany('App\CommentPoem');
+    }
 }

@@ -15,7 +15,7 @@ class StoryController extends Controller {
      */
     public function index()
     {
-        $stories = Story::all();
+        $stories = Story::paginate(10);
 
 
         return view('stories.index', ['stories' => $stories] );
@@ -31,7 +31,12 @@ class StoryController extends Controller {
     {
         $story = Story::find($id);
 
-        return view('stories.show', ['story' => $story]);
+        $comments = Story::find($story->id)->ownComments;
+
+        return view('stories.show', [
+            'story' => $story,
+            'comments' => $comments
+        ]);
     }
 
 

@@ -17,9 +17,12 @@ class CommentPoemController extends Controller {
 	 */
 	public function store(CreateComment $request)
 	{
-		$commenr = CommentPoem::create($request->all());
+		$comment = CommentPoem::create([
+            'poem_id' => $request->input('post_id'),
+            'comment_content' => $request->input('comment_content')
+        ]);
 
-        $commenr->save();
+        $comment->save();
 
         return Redirect::back();
 	}

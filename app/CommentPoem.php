@@ -13,4 +13,11 @@ class CommentPoem extends Model {
         'comment_content'
     ];
 
+    /**
+     * Return poem that comment belongs
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function poemComments(){
+        return $this->belongsTo('App\Poem');
+    }
 }

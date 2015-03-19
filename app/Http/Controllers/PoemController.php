@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\CommentPoem;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -15,7 +16,7 @@ class PoemController extends Controller {
      */
     public function index()
     {
-        $poems = Poem::all();
+        $poems = Poem::paginate(10);
 
 
         return view('poems.index', ['poems' => $poems] );
@@ -31,7 +32,12 @@ class PoemController extends Controller {
     {
         $poem = Poem::find($id);
 
-        return view('poems.show', ['poem' => $poem]);
+        $comments = Poem::find($poem->id)->ownComments;
+
+        return view('poems.show', [
+            'poem' => $poem,
+            'comments' => $comments
+        ]);
     }
 
 
