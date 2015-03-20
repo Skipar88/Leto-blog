@@ -13,10 +13,10 @@ return [
 	|
 	*/
 
-	"password" => "Passwords must be at least six characters and match the confirmation.",
-	"user" => "We can't find a user with that e-mail address.",
+	"password" => "Паролата трябва да бъде поне шест синвола.",
+	"user" => "Потребител с такъв e-mail не съществува.",
 	"token" => "This password reset token is invalid.",
-	"sent" => "We have e-mailed your password reset link!",
-	"reset" => "Your password has been reset!",
+	"sent" => "На вашия e-mail, ще бъде изпратен линк за смяна на паролата!", 
+	"reset" => "Вашата парола беше сменена!",
 
 ];

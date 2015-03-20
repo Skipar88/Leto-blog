@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel</title>
+	<title>С любов от Лето</title>
 
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
@@ -28,7 +28,10 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
+				<a class="navbar-brand" href="#">
+				<img src="/img/logo.png" width="40" height="40" align="center"></img>
+				<img src="/img/log.png"  width="125" height="20" align="center"></img>
+				</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
