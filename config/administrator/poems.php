@@ -13,7 +13,7 @@ return [
      *
      * @type string
      */
-    'single' => 'поема',
+    'single' => 'поезия',
 
     /**
      * The class name of the Eloquent model that this config represents

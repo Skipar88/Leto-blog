@@ -22,6 +22,11 @@ Route::post('/poem/comment', 'CommentPoemController@store');
 
 Route::post('/story/comment', 'CommentStoryController@store');
 
+Route::group(['middleware' => 'admin'], function(){
+    Route::get('/admin/poem/comment/{id}', 'AdminCommentController@deletePoemComment');
+    Route::get('/admin/story/comment/{id}', 'AdminCommentController@deleteStoryComment');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

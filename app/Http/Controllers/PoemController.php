@@ -3,7 +3,6 @@
 use App\CommentPoem;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
 use App\Poem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -17,7 +16,7 @@ class PoemController extends Controller {
      */
     public function index()
     {
-        $poems = Poem::paginate(10);
+        $poems = Poem::orderBy('created_at', 'desc')->paginate(10);
 
 
         return view('poems.index', ['poems' => $poems] );
@@ -35,7 +34,15 @@ class PoemController extends Controller {
 
         $comments = DB::table('comment_poems')
             ->join('users', 'comment_poems.user_id', '=', 'users.id')
-            ->get(['comment_content', 'first_name', 'family_name']);;
+            ->select(
+                'comment_poems.comment_content',
+                'users.first_name',
+                'users.family_name',
+                'comment_poems.created_at',
+                'comment_poems.id'
+
+            )
+            ->paginate(8);
 
 
         return view('poems.show', [

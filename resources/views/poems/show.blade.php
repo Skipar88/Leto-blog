@@ -29,9 +29,21 @@
                 <div class="panel-body">
                     @if($comments)
                         @foreach($comments as $comment)
-                            {{ $comment->first_name }} {{ $comment->family_name }}
-                            <p>{{ $comment->comment_content }}</p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <strong>{{ $comment->first_name }} {{ $comment->family_name }}</strong>
+                                    <p>{{ $comment->comment_content }}</p>
+                                    <span class="text-muted">{{ \Carbon\Carbon::createFromTimeStamp(strtotime($comment->created_at))->diffForHumans() }}</span>
+                                    @if(Auth::user()->role == 'administrator')
+                                        <a class="pull-right" href="/admin/poem/comment/{{ $comment->id }}">Изтрий</a>
+                                    @endif
+                                </div>
+                            </div>
+                            <hr/>
                         @endforeach
+                        <div>
+                            {!! $comments->appends(['sort' => 'created_at'])->render() !!}
+                        </div>
                     @else
                         За момента няма коментари
                     @endif

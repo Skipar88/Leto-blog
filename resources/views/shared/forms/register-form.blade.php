@@ -8,7 +8,7 @@
 !!}
 
     <div class="form-group">
-        {!! Form::label('first_name', 'Първото име', [
+        {!! Form::label('first_name', 'Собствено име', [
             'class' => 'col-md-4 control-label'
             ])
         !!}
@@ -22,7 +22,7 @@
 
 
     <div class="form-group">
-        {!! Form::label('family_name', 'Фамилия', [
+        {!! Form::label('family_name', 'Фамилно име', [
             'class' => 'col-md-4 control-label'
             ])
         !!}
