@@ -1,6 +1,6 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h4>Коментари ({!! $comments ? count($comments) : '0' !!})</h4>
+        <h4>Коментари</h4>
     </div>
 
     <div class="panel-body">

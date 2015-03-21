@@ -16,7 +16,7 @@ class StoryController extends Controller {
      */
     public function index()
     {
-        $stories = Story::orderBy('created_at', 'desc')->paginate(10);
+        $stories = Story::orderBy('created_at', 'desc')->paginate(5);
 
 
         return view('stories.index', ['stories' => $stories] );
@@ -25,14 +25,29 @@ class StoryController extends Controller {
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  $id
      * @return Response
      */
     public function show($id)
     {
         $story = Story::find($id);
+        $comments = $this->getCommentsForPoem($story->id);
 
+        return view('stories.show', [
+            'story' => $story,
+            'comments' => $comments
+        ]);
+    }
+
+    /**
+     * Return comments for single story
+     * @param $storyId
+     * @return mixed
+     */
+    public function getCommentsForPoem($storyId)
+    {
         $comments = DB::table('comment_stories')
+            ->where('story_id', $storyId)
             ->join('users', 'comment_stories.user_id', '=', 'users.id')
             ->select(
                 'comment_stories.comment_content',
@@ -40,13 +55,9 @@ class StoryController extends Controller {
                 'users.family_name',
                 'comment_stories.created_at',
                 'comment_stories.id')
-            -> orderBy('created_at', 'desc')
-            ->paginate(8);
-
-        return view('stories.show', [
-            'story' => $story,
-            'comments' => $comments
-        ]);
+            ->orderBy('created_at', 'desc')
+            ->paginate(5);
+        return $comments;
     }
 
 

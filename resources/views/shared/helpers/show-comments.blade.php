@@ -12,7 +12,7 @@
         </div>
         <hr/>
     @endforeach
-    {!! $comments->appends(['sort' => 'created_at'])->render() !!}
+    {!! $comments->appends(['sort' => 'created_at'])->  render() !!}
 @else
     За момента няма коментари
 @endif

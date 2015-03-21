@@ -24,7 +24,7 @@
 
 					@endforeach
 					<div class="row">
-					    <div class="col-md-3 col-md-offset-5">
+					    <div class="col-md-12">
 					        {!! $poems->appends(['sort' => 'created_at'])->render() !!}
 					    </div>
 					</div>

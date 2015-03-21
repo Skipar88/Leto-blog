@@ -16,7 +16,7 @@ class PoemController extends Controller {
      */
     public function index()
     {
-        $poems = Poem::orderBy('created_at', 'desc')->paginate(10);
+        $poems = Poem::orderBy('created_at', 'desc')->paginate(5);
 
 
 
@@ -26,13 +26,30 @@ class PoemController extends Controller {
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  $id
      * @return Response
      */
     public function show($id)
     {
         $poem = Poem::find($id);
+        $comments = $this->getCommentsForPoem($poem->id);
+
+
+        return view('poems.show', [
+            'poem' => $poem,
+            'comments' => $comments
+        ]);
+    }
+
+    /**
+     * Return comments for single poem
+     * @param $poemId
+     * @return mixed
+     */
+    public function getCommentsForPoem($poemId)
+    {
         $comments = DB::table('comment_poems')
+            ->where('poem_id', $poemId)
             ->join('users', 'comment_poems.user_id', '=', 'users.id')
             ->select(
                 'comment_poems.comment_content',
@@ -41,14 +58,9 @@ class PoemController extends Controller {
                 'comment_poems.created_at',
                 'comment_poems.id'
             )
-            -> orderBy('created_at', 'desc')
-            -> paginate(8);
-
-
-        return view('poems.show', [
-            'poem' => $poem,
-            'comments' => $comments
-        ]);
+            ->orderBy('created_at', 'desc')
+            ->paginate(5);
+        return $comments;
     }
 
 
