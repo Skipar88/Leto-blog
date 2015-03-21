@@ -40,6 +40,7 @@ class StoryController extends Controller {
                 'users.family_name',
                 'comment_stories.created_at',
                 'comment_stories.id')
+            -> orderBy('created_at', 'desc')
             ->paginate(8);
 
         return view('stories.show', [

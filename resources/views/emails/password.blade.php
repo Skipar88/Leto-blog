@@ -1,1 +1,2 @@
-Click here to reset your password: {{ url('password/reset/'.$token) }}
+Изглежда сте поискали смяна на паролата. За да я смените използвайте изпратения Ви линк:
+<br></br> {{ url('password/reset/'.$token) }}

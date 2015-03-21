@@ -19,6 +19,7 @@ class PoemController extends Controller {
         $poems = Poem::orderBy('created_at', 'desc')->paginate(10);
 
 
+
         return view('poems.index', ['poems' => $poems] );
     }
 
@@ -31,7 +32,6 @@ class PoemController extends Controller {
     public function show($id)
     {
         $poem = Poem::find($id);
-
         $comments = DB::table('comment_poems')
             ->join('users', 'comment_poems.user_id', '=', 'users.id')
             ->select(
@@ -40,9 +40,9 @@ class PoemController extends Controller {
                 'users.family_name',
                 'comment_poems.created_at',
                 'comment_poems.id'
-
             )
-            ->paginate(8);
+            -> orderBy('created_at', 'desc')
+            -> paginate(8);
 
 
         return view('poems.show', [

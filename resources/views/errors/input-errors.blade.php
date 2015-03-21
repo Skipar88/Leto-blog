@@ -6,7 +6,7 @@
                 @if($error != 'These credentials do not match our records.')
                     <li>{{ $error }}</li>
                 @else
-                    <li>Няма такъв потребител.</li>
+                    <li>Грешнен имейл или парола</li>
                 @endif
             @endforeach
         </ul>

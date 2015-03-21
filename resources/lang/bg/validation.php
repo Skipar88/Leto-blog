@@ -102,12 +102,15 @@ return [
 	|
 	*/
 
-    'attributes' => [
+	'attributes' => [
         'email' => 'имейл',
         'password' => 'парола',
         'first' => 'собствено име',
         'family' => 'фамилно име',
-        'g-recaptcha-response' => 'потвърждение на паролата'
+        'g-recaptcha-response' => 'потвърждение на паролата',
+        'first_name' => 'собствено име',
+        'family_name' => 'фамилно име'
+        
     ],
 
 ];

@@ -18,7 +18,7 @@
                                 </h3>
                             </div>
                             <div class="panel-body">
-                                <p>{!! mb_substr($story->story_content, 0, 100) !!} <a href="{!! url('/stories/' . $story->id) !!}">...</a> </p>
+                                <p>{!! mb_substr($story->story_content, 0, 700) !!} <a href="{!! url('/stories/' . $story->id) !!}">...</a> </p>
                             </div>
                         </container>
 

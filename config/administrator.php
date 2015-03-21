@@ -53,7 +53,8 @@ return array(
 	 */
 	'menu' => [
         'poems',
-        'stories'
+        'stories',
+        'Settings' => array('settings.site'),
     ],
 
 	/**
