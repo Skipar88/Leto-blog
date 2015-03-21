@@ -74,7 +74,7 @@
     </div>
     <div class="form-group">
         <div class="col-md-6 col-md-offset-4">
-            {!! Recaptcha::render() !!}
+            {!! Recaptcha::render(['lang' => 'bg']) !!}
         </div>
     </div>
     <div class="form-group">

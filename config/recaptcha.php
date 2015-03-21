@@ -46,7 +46,7 @@ return array(
     |    
     */    
     'options'       => array(
-        
+        'lang' => 'bg',
         'curl_timeout' => 1,
         
     ),

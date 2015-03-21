@@ -36,7 +36,7 @@ return array(
 	 * custom pages by prepending a view path with 'page.'. By providing an array of names, you can group certain models or settings pages
 	 * together. Each name needs to either have a config file in your model config path, settings config path with the same name, or a path to a
 	 * fully-qualified Laravel view. So 'users' would require a 'users.php' file in your model config path, 'settings.site' would require a
-	 * 'site.php' file in your settings config path, and 'page.foo.test' would require a 'test.php' or 'test.blade.php' file in a 'foo' directory
+	 * 'sites.php' file in your settings config path, and 'page.foo.test' would require a 'test.php' or 'test.blade.php' file in a 'foo' directory
 	 * inside your view directory.
 	 *
 	 * @type array
